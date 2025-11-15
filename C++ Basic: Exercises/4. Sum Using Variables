@@ -1,0 +1,22 @@
+//Write a program in C++ to print the sum of two numbers using variables.
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	
+	 cout << "\n\n Print the sum of two numbers :\n"; // Outputting a message to print the sum of two numbers
+	cout << "-----------------------------------\n"; // Outputting a separator line
+
+	int a; // Declaration of integer variable 'a'
+	int b; // Declaration of integer variable 'b'
+	int sum; // Declaration of integer variable 'sum'
+	
+	a = 29; // Assigning value 29 to variable 'a'
+	b = 30; // Assigning value 30 to variable 'b'
+	sum = a + b; // Calculating the sum of 'a' and 'b' and assigning it to 'sum'
+	
+	cout << " The sum of "<< a << " and "<< b <<" is : "<< sum <<"\n\n" ; // Outputting the calculated sum
+
+	return 0;
+}
