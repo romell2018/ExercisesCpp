@@ -1,0 +1,15 @@
+//Write a program in C++ to print the sum of two numbers
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+    int a = 5;
+    int b = 10;
+    int sum;
+    
+    sum = a + b;
+    
+    cout << "the sum of those two numbers: " << sum << endl;
+}
