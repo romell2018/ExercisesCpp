@@ -1,0 +1,10 @@
+//Write a program in C++ to print welcome text on a separate line.
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+    cout << "welcome \n" << endl;
+    cout << "to programing"<< endl;
+}
